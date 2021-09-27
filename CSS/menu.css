@@ -28,6 +28,7 @@ nav li {
     width: 15rem; 
     font-family: Pica;
     font-size: 25px;
+    list-style: symbols("*");
 }
 
 nav li > a {
@@ -49,5 +50,6 @@ li:hover > ul{
     padding-bottom: 20px;
     border-radius: 10px;
     line-height: 25px;
+    
 }
 
