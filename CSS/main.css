@@ -1,0 +1,46 @@
+@font-face {
+    src: url(../Fonts/DJB\ Holly\ Typed\ 2\ Much.ttf);
+    font-family: holly;
+}
+
+html, 
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    max-width: 100%;
+    margin: auto;
+    background-image: url("../Images/depositphotos_287921756-stock-photo-white-brick-wall-background.jpg");
+}
+
+.main{
+    height: 100px;
+}
+
+
+
+.sticky-header{
+    background: rgb(197, 197, 197);
+
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    z-index: 0;
+
+}
+
+.sticky-header h1{
+    font-family: holly;
+    font-size: 3.5rem;
+    line-height: 8 rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ticketDisplay{
+    text-align: center;
+}

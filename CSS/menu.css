@@ -1,0 +1,53 @@
+@font-face {
+    src: url(../Fonts/Selectric\ Pica\ Regular.ttf);
+    font-family: Pica;
+}
+
+
+.menuDisplay{
+    background-color: rgb(78, 78, 78);
+    width: 70%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    z-index: 99;
+    height: 50px;
+    transform:translate(0%,-55%);
+}
+
+nav ul{
+    padding-top: 10px !important;
+    text-align: center;
+    list-style: none;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    width: 15rem; 
+    font-family: Pica;
+    font-size: 25px;
+}
+
+nav li > a {
+    color:white !important;
+}
+
+
+nav > ul ul {
+    display: none;
+}
+
+li:hover > ul{
+    text-align: left;
+    position:absolute;
+    display: block;
+    top: 2rem;
+    left: 0.1rem;
+    background-color: rgb(131, 131, 131);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
