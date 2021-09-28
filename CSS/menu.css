@@ -11,7 +11,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    z-index: 99;
+    z-index: 98;
     height: 50px;
     transform:translate(0%,-55%);
 }
@@ -28,7 +28,6 @@ nav li {
     width: 15rem; 
     font-family: Pica;
     font-size: 25px;
-    list-style: symbols("*");
 }
 
 nav li > a {

@@ -14,11 +14,11 @@ body{
     max-width: 100%;
     margin: auto;
     background-image: url("../Images/depositphotos_287921756-stock-photo-white-brick-wall-background.jpg");
-    z-index: 0;
+    z-index: -3;
 }
 
 .main{
-    height: 100px;
+    background-image: url("../Images/ticket.png");
 }
 
 
@@ -43,5 +43,16 @@ body{
 }
 
 .ticketDisplay{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.ticket{
+    position: absolute;
+    padding-top: 0%;
+    left: 30px;
+    border: 1px solid #000000;
     z-index: -1;
 }
