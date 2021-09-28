@@ -1,14 +1,17 @@
 #scratchPatch {
     display: block;
+    z-index: 100;
     margin: 0 auto;
     background-image: url('../Images/ticket_cover_homepage.png');
     background-image: -webkit-image-set(url('../Images/ticket_cover_homepage.png') 1x, 
 	url('../Images/ticket_cover_layer.png') 2x );
     background-size: cover;
     width: 100%;
-    max-width: 750px;
+    height: 100%;
+    max-width: 1100px;
+    max-height:505px;
     height: auto;
     cursor:  crosshair;
-    cursor: url(circular-cursor.png) 53 53, crosshair;
+    cursor: url(../Images/encil-scratches-png-dealing-with-autism-book-11563272860ignwbjclqj.png) 53 53, crosshair;
     z-index: 100;
 }
