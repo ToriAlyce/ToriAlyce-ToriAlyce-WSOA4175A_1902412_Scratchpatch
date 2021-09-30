@@ -4,7 +4,7 @@
     margin: 0 auto;
     background-image: url('../Images/ticket_cover_homepage.png');
     background-image: -webkit-image-set(url('../Images/ticket_cover_homepage.png') 1x, 
-	url('../Images/ticket_cover_layer.png') 2x );
+	url('../Images/ticket_cover_homepage.png') 2x );
     background-size: cover;
     width: 100%;
     height: 100%;
