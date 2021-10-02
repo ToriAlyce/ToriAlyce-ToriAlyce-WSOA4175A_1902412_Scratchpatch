@@ -17,10 +17,6 @@ body{
     z-index: -10;
 }
 
-.main{
-    background-image: url("../Images/ticket.png");
-}
-
 
 
 .sticky-header{
