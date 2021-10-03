@@ -13,10 +13,74 @@
     user-select: none;
 }
 
+#cardAbout{
+    width:1115px;
+    height: 534px;
+    position: relative;
+    user-select: none;
+}
+
+#cardNetart{
+    width:1115px;
+    height: 534px;
+    position: relative;
+    user-select: none;
+}
+
 img.canvas{
     border-radius: 10px;
 }
 
 #card:active{
     transform: scale(1.01);
+}
+
+#cardAbout:active{
+    transform: scale(1.01);
+}
+
+#cardNetart:active{
+    transform: scale(1.01);
+}
+
+#cardSmall1{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
+}
+
+#cardSmall2{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
+}
+
+#cardSmall3{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
+}
+
+#cardSmall4{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
+}
+
+#cardSmall5{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
+}
+
+#cardSmall6{
+    width:170px;
+    height: 170px;
+    position: absolute;
+    user-select: none;
 }

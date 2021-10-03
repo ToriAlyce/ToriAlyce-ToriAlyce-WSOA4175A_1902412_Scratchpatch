@@ -1,15 +1,15 @@
 const blogPosts = [
-    {title: "Article Review", date: new Date(), summery: 'Something...' },
-    {title: "Internet Artwork Ananlysis", date: new Date(), summery: 'Something...' },
-    {title: "Technical Reflection", date: new Date(), summery: 'Something...' },
-    {title: "Artistic Reflection", date: new Date(), summery: 'Something...' }
+    {title: "•Article Review", date: new Date(), summery: 'Something...' },
+    {title: "•Internet Artwork Ananlysis", date: new Date(), summery: 'Something...' },
+    {title: "•Technical Reflection", date: new Date(), summery: 'Something...' },
+    {title: "•Artistic Reflection", date: new Date(), summery: 'Something...' }
 ]
 
 const menuItems = [
-    {title: 'Home', link: '/'},
-    {title: 'About', link: '/about'},
-    {title: 'Blogs', link: '/Blogs', children: blogPosts},
-    {title: 'Net Artwork', link: '/'},
+    {title: 'Home', link: '/home.html'},
+    {title: 'About', link: '/about.html'},
+    {title: 'Blogs', link: '/blogs.html', children: blogPosts},
+    {title: 'Net Artwork', link: '/netArt.html'},
 ]
 
 const createMenuItems = (item) => {
@@ -46,3 +46,12 @@ const initaliseMenue = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => initaliseMenue());
+
+function clickOne()
+{
+    alert("Hello");
+    var canvas = document.getElementById('card');
+    var context = canvas.getContext('2d');
+    context.clearRect(0, 0, canvas.width, canvas.height);
+}
+
