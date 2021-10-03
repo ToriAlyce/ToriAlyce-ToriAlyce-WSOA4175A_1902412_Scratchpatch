@@ -9,7 +9,7 @@ const menuItems = [
     {title: 'Home', link: './home.html'},
     {title: 'About', link: './about.html'},
     {title: 'Blogs', link: './blogs.html', children: blogPosts},
-    {title: 'Net Artwork', link: '/netArt.html'},
+    {title: 'Net Artwork', link: './netArt.html'},
 ]
 
 const createMenuItems = (item) => {
