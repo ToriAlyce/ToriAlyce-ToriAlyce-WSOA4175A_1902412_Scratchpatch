@@ -25,7 +25,7 @@ nav ul{
 nav li {
     position: relative;
     display: inline-block;
-    width: 15rem; 
+    width: 12rem; 
     font-family: Pica;
     font-size: 25px;
 }
@@ -47,10 +47,11 @@ li:hover > ul{
     display: block;
     top: 2rem;
     left: 0.1rem;
+    text-overflow: clip;
     background-color: rgb(131, 131, 131);
     padding-bottom: 20px;
     border-radius: 10px;
-    line-height: 25px;
+    line-height: 31px;
     z-index: 99;
 }
 

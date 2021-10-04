@@ -1,8 +1,8 @@
 const blogPosts = [
-    {title: "•Article Review", date: new Date(), summery: 'Something...' },
-    {title: "•Internet Artwork Ananlysis", date: new Date(), summery: 'Something...' },
-    {title: "•Technical Reflection", date: new Date(), summery: 'Something...' },
-    {title: "•Artistic Reflection", date: new Date(), summery: 'Something...' }
+    {title: "○  Blog Post 1", link: './blog_1.html', date: new Date(), summery: 'Something...' },
+    {title: "○  Blog Post 2", link: './blog_2.html', date: new Date(), summery: 'Something...' },
+    {title: "○  Blog Post 3", link: './blog_3.html', date: new Date(), summery: 'Something...' },
+    {title: "○  Blog Post 4", link: './blog_4.html', date: new Date(), summery: 'Something...' }
 ]
 
 const menuItems = [
